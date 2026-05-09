@@ -1,0 +1,17 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#hero {
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer {
+    background-image: url("./assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

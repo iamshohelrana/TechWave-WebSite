@@ -60,7 +60,58 @@
 
     </header>
 
-    <main>
+    <main class="flex flex-col gap-[50px]">
+        <!-- hero section -->
+      <section
+        id="hero"
+        class="bg-position-[center_top_20%] md:bg-position-[center_top_5%] lg:bg-center"
+      >
+        <div
+          class="mx-auto flex flex-col items-center justify-center container mx-auto px-[20px] py-[40px] lg:py-[100px]"
+        >
+          <div
+            class="relative size-[190px] lg:size-[350px] flex items-center justify-center mb-[24px] lg:mb-[40px] group"
+          >
+            <img class="absolute z-0" src="./assets/hero-circle.png" alt="Background Circle" />
+            <img
+              class="h-[70px] lg:h-[175px] w-auto z-1 group-hover:animate-spin delay-200"
+              src="./assets/microphone.png"
+              alt="Microphone"
+            />
+            <span
+              class="absolute bg-[#00FF88] text-[16px] py-[8px] px-[16px] rounded-full top-0 right-0 lg:right-[25px] font-semibold text-[#1A0B2E]"
+              >New</span
+            >
+          </div>
+          <div class="text-center text-white">
+            <h1 class="font-black text-[40px] lg:text-[60px] mb-[8px]">
+              TechWave
+            </h1>
+            <p class="text-[16px]">
+              Your daily dose of tech insights, productivity hacks, and personal
+              growth
+            </p>
+            <div class="flex gap-2 justify-center mt-[24px]">
+              <button
+                class="btn rounded-full py-[12px] px-[20px] font-semibold bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] cursor-pointer hover:bg-clip-text hover:text-transparent transition-all border border-[#9100F8] flex items-center justify-center gap-2"
+              >
+                <img src="assets/spotify.png" alt="Spotify" /> Listen on
+                Spotify
+              </button>
+              <button
+                class="btn rounded-full py-[12px] px-[20px] font-semibold border border-[#00FF88] text-[#00FF88] hover:text-[#1A0B2E] hover:bg-[#00FF88] cursor-pointer transition-all box-border flex items-center justify-center gap-2 group"
+              >
+                <img
+                  src="assets/message.png"
+                  class="group-hover:grayscale group-hover:brightness-0"
+                  alt="Subscribe"
+                />
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </main>
 
