@@ -62,10 +62,7 @@
 
     <main class="flex flex-col gap-[50px]">
         <!-- hero section -->
-      <section
-        id="hero"
-        class="bg-position-[center_top_20%] md:bg-position-[center_top_5%] lg:bg-center"
-      >
+      <section class="bg-position-[center_top_20%] md:bg-position-[center_top_5%] lg:bg-center">
         <div
           class="mx-auto flex flex-col items-center justify-center container mx-auto px-[20px] py-[40px] lg:py-[100px]"
         >
@@ -114,7 +111,7 @@
       </section>
       
         <!-- about section -->
-      <section id="about">
+      <section>
         <div
           class="mx-auto flex flex-col items-center justify-center container mx-auto px-[20px] py-[40px] lg:py-[120px]"
         >
@@ -179,7 +176,7 @@
       </section>
 
        <!-- why choose section -->
-      <section id="why-choose" class="bg-[#230E3D]">
+      <section class="bg-[#230E3D]">
         <div
           class="mx-auto flex flex-col items-center justify-center container mx-auto px-[20px] py-[40px] lg:py-[120px]"
         >
@@ -220,7 +217,7 @@
       </section>
 
        <!-- featured episodes section -->
-      <section id="featured-episodes">
+      <section>
         <div
           class="mx-auto flex flex-col items-center justify-center container mx-auto px-[20px] py-[40px] lg:py-[120px]"
         >
@@ -267,12 +264,62 @@
           </div>
         </div>
       </section>
+        <!-- host section -->
+      <section>
+        <div
+          class="mx-auto flex flex-col items-center justify-center container mx-auto px-[20px] py-[40px] lg:py-[120px]"
+        >
+          <div class="text-white text-center max-w-[1000px]">
+            <h2 class="text-[32px] lg:text-[48px] font-bold mb-[16px] lg:mb-[40px]">
+              Meet the Host
+            </h2>
+          </div>
 
+          <div class="text-white bg-[#351165]/40 w-full p-[24px] lg:py-[48px] lg:px-[40px] rounded-[24px] lg:rounded-[40px] flex flex-col lg:flex-row gap-[16px] lg:gap-[24px] items-center text-center lg:text-left">
+            <img src="assets/host.png" class="size-[150px] lg:size-[200px] rounded-full" alt="Host">
+            <div class="flex gap-[16px] flex-col">
+                <h3 class="text-[24px] lg:text-[32px] font-bold">Alex Kumar</h3>
+                <p class="text-[16px] text-white/60">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                <div class="flex items-center gap-[8px] justify-center lg:justify-start">
+                    <a href="#" class="size-[40px] border border-[#533C72] rounded-full flex items-center justify-center hover:bg-[#533C72]"><img src="assets/linkedin.png" alt="LinkedIn" class="size-[15px]"></a>
+                    <a href="#" class="size-[40px] border border-[#533C72] rounded-full flex items-center justify-center hover:bg-[#533C72]"><img src="assets/x.png" alt="X" class="size-[15px]"></a>
+                    <a href="#" class="size-[40px] border border-[#533C72] rounded-full flex items-center justify-center hover:bg-[#533C72]"><img src="./assets/instagram.png" alt="Instagram" class="size-[15px]"></a>
+                    <a href="#" class="size-[40px] border border-[#533C72] rounded-full flex items-center justify-center hover:bg-[#533C72]"><img src="assets/youtube.png" alt="YouTube" class="size-[15px]"></a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </main>
 
-    <footer>
-
+    <!-- footer section -->
+    <footer class="text-white">
+         <div
+          class="mx-auto flex flex-col items-center justify-center container mx-auto px-[20px] py-[40px] lg:py-[120px] gap-[24px] text-center"
+        >
+            <h3 class="font-black text-[45px] lg:text-[82px] leading-none">Tech<span class="bg-linear-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
+            </h3>
+            <div class="flex items-center justify-center gap-[30px] lg:gap-[42px] text-white/60 text-[16px] flex-wrap">
+                <a href="#" class="flex gap-[8px] items-center">
+                    <img src="assets/spotify.png" class="h-auto w-[20px]" alt="Spotify">
+                    <h4>Spotify</h4>
+                </a>
+                <a href="#" class="flex gap-[8px] items-center">
+                    <img src="assets/apple-podcast.png" class="h-auto w-[20px]" alt="Apple Podcast">
+                    <h4>Apple Podcast</h4>
+                </a>
+                <a href="#" class="flex gap-[8px] items-center">
+                    <img src="assets/youtube-podcast.png" class="h-auto w-[20px]" alt="YouTube Podcast">
+                    <h4>YouTube</h4>
+                </a>
+                <a href="#" class="flex gap-[8px] items-center">
+                    <img src="assets/twitter.png" class="h-auto w-[20px]" alt="Twitter">
+                    <h4>Twitter</h4>
+                </a>
+            </div>
+            <p class="text-white/60 text-[16px]">&copy; 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
     </footer>
     
 </body>
